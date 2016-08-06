@@ -4,7 +4,7 @@ html, body {
 }
 
 .container {
-	width: 1070px;
+	width: 1170px;
 	margin: 0 auto;
 }
 
@@ -18,16 +18,30 @@ html, body {
 	src: url(../fonts/varelaround-regular-webfont.woff2);
 }
 
+@font-face {
+	font-family: 'Lato-Light';
+	src: url(../fonts/lato-light-webfont.woff2);
+}
+
+.header-menu {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
 .navbar {
 	text-align: center;	
-	padding-top: 46px;
+	padding-top: 23px;
+}
+
+.clearfix:after {
 	content: "";
     display: table;
     clear: both;
 }
 
 .navbar a {
-	font-family: 'Lato-Regular', 'New Times Roman', Helvetica, sans-serif;
+	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
 	color: #000;
 	font-size: 16px;
 }
@@ -82,40 +96,48 @@ html, body {
 .button-apple a {
 	color: #fff;
 	padding-right: 5px;
+	margin-top: 0;
 }
 
-section {
-	width: 100%;	
-	background: url(../images/background-section1.jpg) bottom center no-repeat;
-	padding-bottom: 600px;	
+.section-banner {
+	background: url(../images/background-section1.jpg) center no-repeat;
+	background-size: cover;
+	padding-bottom: 465px;
+	overflow: hidden;
 }
 
-.container2 {
-	width: 800px;
-	margin: 0 auto;
-	padding-top: 120px;
+.banner {
 	text-align: center;	
+	width: 800px;
+}
+
+.iphone {
+	padding-top: 60px;
+	margin-bottom: -820px;
+	display: inline-block;
 }
 
 h1 { 
-	padding: 20px 0;
-	font-family: 'VarelaRound', 'New Times Roman', Helvetica, sans-serif;
+	padding-top: 215px;
+	padding-bottom: 15px;	
+	font-family: 'VarelaRound', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 62px;
 }
 
-.container2-p {
-	width: 770px; 
-	margin: 0 auto;
-	padding: 20px 25px 60px 25px;
-	font-family: 'Lato-Regular', 'New Times Roman', Helvetica, sans-serif;
+.banner-text {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 20px;
 	color: #a4a5a6;
+	line-height: 130%;
 }
 
 .button-play {
+	display: inline-block;
 	padding: 15px 40px;
 	border: 1px solid #dadcdf;
-	font-family: 'Lato-Regular', 'New Times Roman', Helvetica, sans-serif;
+	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 16px;
 	color: #000;
 	-webkit-border-radius: 25px;
@@ -126,4 +148,16 @@ h1 {
 
 .fa-play {
 	padding-right: 12px;
+}
+
+.section-content1 h2 {
+	font-family:'Lato-Light', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 26px;
+}
+
+
+.section-content1 p {
+	font-family:'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #8c8f94;
 }
