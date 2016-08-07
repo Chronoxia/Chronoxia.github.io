@@ -1,6 +1,7 @@
 
 html, body {
 	width: 100%;
+	min-width: 1170px;
 }
 
 .container {
@@ -96,7 +97,6 @@ html, body {
 .button-apple a {
 	color: #fff;
 	padding-right: 5px;
-	margin-top: 0;
 }
 
 .section-banner {
@@ -205,6 +205,22 @@ h1 {
 	font-size: 20px;
 }
 
+.iphone-features a {
+	color: #000;
+}
+
 .iphone-feature-img {
 	margin-left: -320px;
+}
+
+.iphone-features-left {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 60%;
+}
+
+.iphone-features-left {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 40%
 }
