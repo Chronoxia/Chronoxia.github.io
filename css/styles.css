@@ -111,7 +111,7 @@ html, body {
 	width: 800px;
 }
 
-.iphone {
+.iphone-banner {
 	padding-top: 60px;
 	margin-bottom: -820px;
 	display: inline-block;
@@ -162,7 +162,7 @@ h1 {
 }
 
 .feature-left {
-	padding-right: 50px;
+	padding-right: 35px;
 	padding-left: 35px;
 }
 
@@ -173,16 +173,14 @@ h1 {
 
 .section-feature h2 {
 	padding-top: 50px;
-	padding-bottom: 25px;
-	font-family:'Lato-Light', 'Times New Roman', Helvetica, sans-serif;
+	padding-bottom: 48px;
+	font-family: 'Lato-Light', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 26px;
 }
 
 
 .section-feature p {	
-	padding-top: 20px;
-	padding-bottom: 20px;	
-	font-family:'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
+	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 135%;
 	color: #8c8f94;
@@ -191,4 +189,22 @@ h1 {
 .section-feature i {
 	color: rgb(38, 125, 244);	
 	font-size: 40px;
+}
+
+.iphone-features {
+	padding-top: 250px;
+}
+
+.iphone-features h3 {
+	font-family: 'VarelaRound', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 42px;
+}
+
+.iphone-features p {
+	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.iphone-feature-img {
+	margin-left: -320px;
 }
