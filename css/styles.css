@@ -4,6 +4,19 @@ html, body {
 	min-width: 1170px;
 }
 
+p {
+	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 135%;
+	color: #8c8f94;
+}
+
+h3 {
+	font-family: 'VarelaRound', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 42px;
+	line-height: 120%;
+}
+
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -22,6 +35,11 @@ html, body {
 @font-face {
 	font-family: 'Lato-Light';
 	src: url(../fonts/lato-light-webfont.woff2);
+}
+
+@font-face {
+	font-family: 'Lato-Bold';
+	src: url(../fonts/lato-bold-webfont.woff2);
 }
 
 .header-menu {
@@ -178,12 +196,8 @@ h1 {
 	font-size: 26px;
 }
 
-
-.section-feature p {	
-	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
+.section-feature p {
 	font-size: 18px;
-	line-height: 135%;
-	color: #8c8f94;
 }
 
 .section-feature span {
@@ -209,18 +223,9 @@ h1 {
 	padding-top: 145px;
 }
 
-h3 {
+.iphone-features h3 {
 	padding-right: 248px;
-	padding-bottom: 85px;
-	font-family: 'VarelaRound', 'Times New Roman', Helvetica, sans-serif;
-	font-size: 42px;
-}
-
-.iphone-features-right p {
-	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
-	font-size: 20px;
-	line-height: 130%;
-	color: #8c8f94;
+	padding-bottom: 80px;
 }
 
 .iphone-features-right a {
@@ -262,4 +267,42 @@ h3 {
 
 .map-feature {
 	padding-top: 230px;
+	overflow: hidden;
+}
+
+.map-features-left {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+.world-map {
+	padding-left: 80px;
+}
+
+.map-features-right {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 60%;
+}
+
+.map-feature h3 {
+	padding-bottom: 70px;
+}
+
+.partners {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	font-family: 'Lato-Bold', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+
+.dropbox-Logo {
+	padding-right: 15px;
+}
+
+.evernote-logo {
+	padding-left: 15px;
 }
