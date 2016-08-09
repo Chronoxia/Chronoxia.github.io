@@ -224,7 +224,6 @@ h1 {
 }
 
 .iphone-features h3 {
-	padding-right: 248px;
 	padding-bottom: 80px;
 }
 
@@ -267,6 +266,7 @@ h1 {
 
 .map-feature {
 	padding-top: 230px;
+	padding-bottom: 200px;
 	overflow: hidden;
 }
 
@@ -305,4 +305,18 @@ h1 {
 
 .evernote-logo {
 	padding-left: 15px;
+}
+
+.iphone-screens {
+	background-color: #f5f5f8;
+}
+
+.screens {
+	text-align: center;
+}
+
+.screens-item {
+	width: 20%; 
+	box-sizing: border-box;
+	display: inline-block;
 }
