@@ -308,15 +308,79 @@ h1 {
 }
 
 .iphone-screens {
+	padding-top: 145px 0 800px;
+	position: relative;
 	background-color: #f5f5f8;
+	overflow: hidden;
 }
 
-.screens {
+.text-above-screens {
+	padding-top: 150px;
 	text-align: center;
 }
 
-.screens-item {
-	width: 20%; 
+.text-above-screens h3 {
+	padding-bottom: 45px;
+}
+
+.text-above-screens hr {
+	height: 2px;
+	width: 50px;
+	background-color: #267df4;
+}
+
+.text-above-screens p {
+	text-transform: uppercase;
+	font-family: 'Lato-Bold', 'Times New Roman', Helvetica, sans-serif;
+	font-size: 12px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+
+		/* 
+
+		EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD
+		EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD
+		EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD
+		EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD EBLYA S PIKCHAMI EBLYA XD
+
+		*/
+
+.images-showcase {
+	position: relative;
 	box-sizing: border-box;
-	display: inline-block;
+}
+
+.images-list {
+	position: relative; 
+	height: 784px;
+	box-sizing: border-box;
+	left: 40%;
+}
+
+.images-list li {
+	position: absolute;
+	width: 370px;
+}
+
+.images-item {
+	top: 80px;
+	left: 31px;
+}
+
+.images-list li:nth-child(1) {
+
+}
+
+.images-list li:nth-child(2) {
+}
+
+.images-list li:nth-child(4) {
+}
+
+.images-list li:nth-child(5) {
+}
+
+.main-img {
 }
