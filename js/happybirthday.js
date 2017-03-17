@@ -4,7 +4,7 @@
 
 		var answer = prompt('If you have not received password yet, then press cancel.', '');
 		if (answer == 'Kirill') {
-			alert("'r.' I hope you are enjoying it, because I feel kinda stupid :(");
+			alert("'u.' I hope you are enjoying it, because I feel kinda stupid :(");
 		} else if (answer == null) {
 			alert('Just smash F5 button to try again later.');
 		} else {
