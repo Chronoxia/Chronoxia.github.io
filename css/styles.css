@@ -150,11 +150,11 @@ h1 {
  	color: #a4a5a6;
 	line-height: 130%;
 	background: white;
-	opacity: 0.8;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-	-ms-border-radius: 40px;
-	border-radius: 40px;
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	border-radius: 20px;
 	
 }
 
