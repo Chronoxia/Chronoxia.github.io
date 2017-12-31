@@ -147,14 +147,8 @@ h1 {
 	padding-bottom: 60px;
 	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 20px;
-/* 	color: #a4a5a6; */
-	color: white;
+ 	color: #a4a5a6;
 	line-height: 130%;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-	-ms-border-radius: 40px;
-	background-color: #a4a5a6
-	opacity: 0.6;
 }
 
 .button-play {
