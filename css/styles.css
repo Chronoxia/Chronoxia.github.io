@@ -147,8 +147,13 @@ h1 {
 	padding-bottom: 60px;
 	font-family: 'Lato-Regular', 'Times New Roman', Helvetica, sans-serif;
 	font-size: 20px;
-	color: #a4a5a6;
+/* 	color: #a4a5a6; */
+	color: black;
 	line-height: 130%;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	background-color: #a4a5a6
 }
 
 .button-play {
