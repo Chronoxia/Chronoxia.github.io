@@ -3,5 +3,5 @@
 
 		"use strict";
 
-		alert('Нажмите "ОК", чтобы скачать newprovidence.wishmaster'); 
+// 		alert('Нажмите "ОК", чтобы скачать newprovidence.wishmaster'); 
 
